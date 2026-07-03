@@ -1,6 +1,12 @@
 # Compiled Java class files
 *.class
 
+# Maven build outputs
+target/
+
+# Log files
+*.log
+
 # PDF and Word documents (exercise question files)
 *.pdf
 *.docx
