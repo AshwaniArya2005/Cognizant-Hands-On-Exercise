@@ -26,7 +26,6 @@ INSERT INTO Loans VALUES (104, 4, 11, SYSDATE + 100);
 
 COMMIT;
 
--- Scenario 1: Reduce interest rate by 1 for customers older than 60
 SET SERVEROUTPUT ON;
 DECLARE
 BEGIN
@@ -45,7 +44,6 @@ END;
 
 SELECT * FROM Loans;
 
--- Scenario 2: Mark customers with balance > 10000 as VIP
 SET SERVEROUTPUT ON;
 BEGIN
     FOR c IN (SELECT CustomerID, Balance FROM Customers)
@@ -63,7 +61,6 @@ END;
 
 SELECT * FROM Customers;
 
--- Scenario 3: Send reminders for loans due within the next 30 days
 SET SERVEROUTPUT ON;
 BEGIN
     FOR l IN (

@@ -28,7 +28,6 @@ COMMIT;
 SELECT * FROM Accounts;
 SELECT * FROM Employees;
 
--- Scenario 1: Apply 1% monthly interest to all Savings accounts
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest
 AS
 BEGIN
@@ -44,7 +43,6 @@ EXEC ProcessMonthlyInterest;
 
 SELECT * FROM Accounts;
 
--- Scenario 2: Update employee bonus by department and percentage
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus(
     dept         IN VARCHAR2,
     bonusPercent IN NUMBER
@@ -59,7 +57,6 @@ BEGIN
 END;
 /
 
--- Scenario 3: Transfer funds between accounts
 EXEC UpdateEmployeeBonus('IT', 10);
 
 SELECT * FROM Employees;
