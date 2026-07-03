@@ -1,0 +1,10 @@
+# Compiled Java class files
+*.class
+
+# PDF and Word documents (exercise question files)
+*.pdf
+*.docx
+
+# OS generated files
+.DS_Store
+Thumbs.db
