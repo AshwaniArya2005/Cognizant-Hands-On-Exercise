@@ -1,0 +1,29 @@
+{
+  "name": "week-5-react-exercises",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "Exercise 1 - React Environment Setup",
+    "Exercise 2 - Class Components",
+    "Exercise 3 - Function Components",
+    "Exercise 4 - Component Lifecycle",
+    "Exercise 5 - Styling React Components",
+    "Exercise 6 - React Router",
+    "Exercise 7 - Props",
+    "Exercise 8 - React State",
+    "Exercise 9 - ES6 Features",
+    "Exercise 10 - JSX",
+    "Exercise 11 - Event Handling",
+    "Exercise 12 - Conditional Rendering - Login Logout",
+    "Exercise 13 - Conditional Rendering - Lists and Keys",
+    "Exercise 14 - Context API",
+    "Exercise 15 - React Forms",
+    "Exercise 16 - Form Validation",
+    "Exercise 17 - Consuming REST API",
+    "Exercise 18 - Unit Testing with Jest and Enzyme",
+    "Exercise 19 - Mocking with Jest"
+  ],
+  "overrides": {
+    "cheerio": "1.0.0-rc.12"
+  }
+}

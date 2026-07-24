@@ -14,3 +14,9 @@ target/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Node / React build artifacts
+node_modules/
+build/
+coverage/
+npm-debug.log*

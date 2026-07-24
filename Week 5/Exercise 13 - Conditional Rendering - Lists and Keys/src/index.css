@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.app-container {
+  padding: 24px 40px;
+}
+
+.toggle-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.toggle-bar button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.section {
+  margin-bottom: 24px;
+  padding-left: 16px;
+  border-left: 4px solid #2e7d32;
+}
+
+.details-block ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.details-block li {
+  margin-bottom: 12px;
+}
